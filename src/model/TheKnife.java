@@ -33,13 +33,14 @@ public class TheKnife {
                     break;
                 case 0:
                     System.out.println("Uscita in corso...");
+                    in.close();
                     System.exit(0);
                     break;
                 default:
                     System.out.println("Ciao!");
                     break;
             }
-            in.close();
+            //in.close();
         }
     }
 }
