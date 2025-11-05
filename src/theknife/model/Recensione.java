@@ -10,7 +10,7 @@ import java.time.format.DateTimeFormatter;
  * 
  * @author [Nome Cognome - Matricola - Sede]
  */
-public class Recenzione {
+public class Recensione {
     
     private String idRecensione;
     private String usernameCliente;
