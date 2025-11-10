@@ -28,7 +28,7 @@ public class Recensione {
      * @param stelle Numero di stelle (1-5)
      * @param testo Testo della recensione
      */
-    public Recenzione(String usernameCliente, String idRistorante, int stelle, String testo) {
+    public Recensione(String usernameCliente, String idRistorante, int stelle, String testo) {
         this.usernameCliente = usernameCliente;
         this.idRistorante = idRistorante;
         setStelle(stelle); // validazione

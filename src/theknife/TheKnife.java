@@ -1,6 +1,8 @@
 package theknife;
 import java.util.Scanner;
 
+import theknife.model.Ristorante;
+
 public class TheKnife {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
