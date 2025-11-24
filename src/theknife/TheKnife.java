@@ -12,7 +12,7 @@ public class TheKnife {
         System.out.println(r1.toString());
         System.out.println();
         while(true){
-            // -----------------------------------------------------
+            
             System.out.println("======= THE KNIFE =======");
             System.out.println("1) Registrati");
             System.out.println("2) Accedi");            

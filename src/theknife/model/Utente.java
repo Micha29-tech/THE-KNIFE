@@ -23,6 +23,7 @@ public class Utente {
     private String luogoDomicilio;
     private List<String> ristorantiPreferiti; // lista ID ristoranti preferiti (solo per clienti)
     
+    
     //costruttore
     public Utente(String nome, String cognome, String username, String password, 
                   String ruolo, LocalDate dataNascita, String luogoDomicilio) {
@@ -38,7 +39,7 @@ public class Utente {
     
     //costruttore semplificato per compatibilità
     public Utente(String nome, String cognome, String username, String password) {
-        this(nome, cognome, username, password, "cliente", null, "");
+        this(nome, cognome, username,password, "cliente", null, "");
     }
     /**
      * Costruttore vuoto per compatibilità framework
@@ -81,7 +82,7 @@ public class Utente {
         public LocalDate getDataNascita (){
             return dataNascita;
         }
-        public void setDataNascita (LocalDate dataNascita){
+        public void setDataNascita ( LocalDate dataNascita){
             this.dataNascita = dataNascita;
         }
         public String getLuogoDomicilio (){
